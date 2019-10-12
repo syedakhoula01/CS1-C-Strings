@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
 
   FILE *inp = fopen("data/dictionary.txt", "r");
 
-  // Grabs a random word from the file dictionary.txt to use in the game
+  // reads in all words from dictionary into the guessWords array
   int counter = 0;
   while (fscanf(inp, "%s", guessWords[counter]) != EOF) {
     counter++;
