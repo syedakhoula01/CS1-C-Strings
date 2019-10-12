@@ -28,7 +28,7 @@ lightbulb
 hacking
 unix
 windows
-lightsabre
+lightsaber
 internet
 security
 panama
