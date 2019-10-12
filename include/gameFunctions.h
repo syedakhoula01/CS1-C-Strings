@@ -1,15 +1,15 @@
 
 
-//TODO: define, document, and implment this function
+//TODO: define, document, and implement this function
 printWithSpaces();
 
-//TODO: define, document, and implment this function
+//TODO: define, document, and implement this function
 initializeBlankString();
 
-//TODO: define, document, and implment this function
+//TODO: define, document, and implement this function
 revealGuessedLetter();
 
-//TODO: define, document, and implment this function
+//TODO: define, document, and implement this function
 checkGuess();
 
 
