@@ -58,8 +58,8 @@ void startGame(char word[25]) {
 }
 
 // Draws part of the horse pending on how many guesses have been made so far
-// Horse grabbed from: http://www.virtualhorses.com/graphics/asciiart.htm
-// And no, I don't know why there's an entire site dedicated to virtualhorses =/
+// Horse grabbed from: http://www.virtualhorses.com/graphics/asciiart.htm (now defunct)
+// And no, I don't know why there was an entire site dedicated to virtualhorses =/
 void drawHorse(int guessedSoFar, int allowedGuesses) {
   // The horse!  Duh!
   char horsey[14][29] = {{"    (\\(\\_\\\0"},
