@@ -1,10 +1,9 @@
 
+//TODO: define, document, and implement this function
+initializeBlankString();
 
 //TODO: define, document, and implement this function
 printWithSpaces();
-
-//TODO: define, document, and implement this function
-initializeBlankString();
 
 //TODO: define, document, and implement this function
 revealGuessedLetter();
