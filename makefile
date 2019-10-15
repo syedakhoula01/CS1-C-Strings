@@ -5,7 +5,7 @@
 #Last Modified by Tony Schneider on 2/18/2012
 
 CC = gcc
-CCFLAGS = -lm -Iinclude
+CCFLAGS = -lm -Iinclude -std=c99
 all: horse
 
 horse: main.o gameFunctions.o
