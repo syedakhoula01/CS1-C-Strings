@@ -3,7 +3,7 @@
 # Originally created by Tony Schneider 2012/02/18
 
 CC = gcc
-CCFLAGS = -lm -Iinclude
+CCFLAGS = -lm -Iinclude -std=c99
 all: horse
 
 horse: main.o gameFunctions.o
