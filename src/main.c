@@ -3,9 +3,8 @@
  * from a file before they lose, one letter at a time.
  *
  */
-
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
 #include "gameFunctions.h"

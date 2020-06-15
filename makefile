@@ -1,8 +1,6 @@
-#Makefile for horse
+# makefile for a horse game
 #
-#Used to make the horse program used for Lab 09 of CSCE155E/251k
-#Created by Tony Schneider on 2/18/2012
-#Last Modified by Tony Schneider on 2/18/2012
+# Originally created by Tony Schneider 2012/02/18
 
 CC = gcc
 CCFLAGS = -lm -Iinclude
@@ -20,4 +18,4 @@ gameFunctions.o: src/gameFunctions.c include/gameFunctions.h
 	$(CC) $(CCFLAGS) -c src/gameFunctions.c -o obj/$@
 
 clean:
-	rm -rf obj/*o memLeak
+	rm -rf obj/*o 

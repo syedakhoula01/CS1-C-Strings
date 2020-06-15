@@ -1,4 +1,4 @@
 # Computer Science I
-## Lab - Strings
+## Lab 8.0 - Strings
 
 This is a lab used in Computer Science I (CSCE 155E, CSCE 155H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
