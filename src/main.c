@@ -27,5 +27,5 @@ int main(int argc, char **argv) {
   // Starts the game
   startGame(guessWords[stringNumber]);
 
-  return 1;
+  return 0;
 }
