@@ -168,14 +168,14 @@ Clone the code for this lab from GitHub using the following URL:
 
     -   `main.c`
 
-    through the handin and verify your program compiles and runs using
-    the grader.  For this lab the grader will simulate playing several games (some
+    and verify your program compiles and all tests pass.
+    For this lab the grader will simulate playing several games (some
     intentionally losing, some winning). Each run may be slightly
     different but the output should correctly display the game being
     played.
 
 2.  Even if you worked with a partner, you *both* should turn in all
-    files. Handin/Grader Instructions
+    files.
 
 # Advanced Activity (Optional)
 
