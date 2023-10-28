@@ -98,7 +98,7 @@ Clone the code for this lab from GitHub using the following URL:
         arguments and return nothing:
 
         -   The first argument is an integer denoting the length of a
-            string
+            string (not including the null terminator)
 
         -   The second argument should be a string
 
@@ -165,8 +165,6 @@ Clone the code for this lab from GitHub using the following URL:
     -   `gameFunctions.c`
 
     -   `gameFunctions.h`
-
-    -   `main.c`
 
     and verify your program compiles and all tests pass.
     For this lab the grader will simulate playing several games (some
