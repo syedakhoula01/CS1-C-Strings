@@ -25,7 +25,11 @@ void printWithSpaces(char *string)
 
 revealGuessedLetter() {}
 
-checkGuess() {}
+int checkGuess(char *str1 , char *str2)
+ {
+  int result = strcmp(str1, str2);
+  return result;
+ }
 
 void startGame(char word[25]) {
   int won = 0;  // Flag to see if the user has won yet
