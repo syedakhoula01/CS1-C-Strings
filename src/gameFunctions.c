@@ -23,7 +23,20 @@ void printWithSpaces(char *string)
     printf("\n");
  }
 
-revealGuessedLetter() {}
+int revealGuessedLetter(const char *solution , char *revealed , char guessedLetter)
+ {
+  int lettersChanged = 0;
+
+    // Iteration
+    for (int i = 0; revealed[i] != '\0'; i++) {
+        // character in the solution matches the guessed letter
+        if (solution[i] == guessedLetter) {
+            // Update the revealed string 
+            revealed[i] = guessedLetter;
+            lettersChanged = 1; 
+        }
+    }
+ }
 
 int checkGuess(char *str1 , char *str2)
  {
