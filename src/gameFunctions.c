@@ -4,7 +4,13 @@
 
 #include "gameFunctions.h"
 
-initializeBlankString() {}
+void initializeBlankString(int lenght , char *string) 
+{
+  for(int i=0 ; i<lenght ; i++)
+  {
+    string[i]='_';
+  }
+}
 
 printWithSpaces() {}
 
